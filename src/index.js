@@ -1,6 +1,10 @@
 const express = require('express');
 const path = require('path');
 const dotEnv = require('dotenv');
+const { skillsFront,
+    skillsBack,
+    skillsMovil,
+    skillsOthers } = require('./data')
 // const bodyParser =require( 'body-parser');
 const handlebars = require('express-handlebars');
 const cors = require('cors');
@@ -20,7 +24,13 @@ app.set('views', path.join(__dirname, 'resources/views'));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get('/', (req, res) => {
-    return res.render('home');
+    // console.log(skills)
+    return res.render('home', {
+        skillsFront,
+        skillsBack,
+        skillsMovil,
+        skillsOthers
+    });
 })
 
 app.get('/news', (req, res) => {
