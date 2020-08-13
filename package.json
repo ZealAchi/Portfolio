@@ -9,8 +9,7 @@
     "dev": "nodemon --exec yarn start",
     "lint": "eslint index.js src",
     "test": "jest",
-    "test:watch": "jest --watchAll",
-    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build src"
+    "test:watch": "jest --watchAll"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -30,15 +29,6 @@
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0",
     "jest": "^26.2.2",
-    "nodemon": "^2.0.4",
-    "netlify-lambda":"*"
-  },
-  "proxy": {
-    "/.netlify/functions": {
-      "target": "http://localhost:3000",
-      "pathRewrite": {
-        "^/\\.netlify/functions": ""
-      }
-    }
+    "nodemon": "^2.0.4"
   }
 }
