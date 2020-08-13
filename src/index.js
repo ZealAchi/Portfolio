@@ -1,10 +1,10 @@
-import express from 'express';
-import path from 'path';
-import dotEnv from 'dotenv';
-// import bodyParser from 'body-parser';
-import handlebars from 'express-handlebars';
-import cors from 'cors';
-import morgan from 'morgan';
+const express = require('express');
+const path = require('path');
+const dotEnv = require('dotenv');
+// const bodyParser =require( 'body-parser');
+const handlebars = require('express-handlebars');
+const cors = require('cors');
+const morgan = require('morgan');
 
 dotEnv.config();
 const app = express();
@@ -17,13 +17,13 @@ app.engine('handlebars', handlebars());
 app.set('view engine', 'handlebars');
 
 app.set('views', path.join(__dirname, 'resources/views'));
-app.use(express.static(path.join(__dirname,"public")));
+app.use(express.static(path.join(__dirname, "public")));
 
 app.get('/', (req, res) => {
     return res.render('home');
 })
 
-app.get('/news',(req,res)=>{
+app.get('/news', (req, res) => {
     res.render('news')
 })
 // const template = Handlebars.compile("Name: {{name}}");
@@ -34,6 +34,6 @@ app.use(express.static('public'));
 // Sets a basic route
 app.get('/', (req, res) => res.send('Hello World !'));
 
-app.listen(process.env.PORT||3000, () => {
-    console.log(`🚀  Server ready at ${process.env.PORT|3000}`);
+app.listen(process.env.PORT || 3000, () => {
+    console.log(`🚀  Server ready at ${process.env.PORT | 3000}`);
 });
