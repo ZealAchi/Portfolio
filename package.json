@@ -18,7 +18,8 @@
     "graphql": "^15.3.0",
     "handlebars": "^4.7.6",
     "mongoose": "^5.9.28",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "@babel/node": "^7.10.5"
   },
   "devDependencies": {
     "@babel/core": "^7.11.0",
