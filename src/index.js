@@ -1,8 +1,6 @@
 import express from 'express';
 import path from 'path';
 import dotEnv from 'dotenv';
-const serverless = require("serverless-http");
-
 // import bodyParser from 'body-parser';
 import handlebars from 'express-handlebars';
 import cors from 'cors';
@@ -19,13 +17,15 @@ app.engine('handlebars', handlebars());
 app.set('view engine', 'handlebars');
 
 app.set('views', path.join(__dirname, 'resources/views'));
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname,"public")));
 
-app.get('/', (req, res) => res.render('home'));
+app.get('/', (req, res) => {
+    return res.render('home');
+})
 
-app.get('/news', (req, res) => {
-  res.render('news');
-});
+app.get('/news',(req,res)=>{
+    res.render('news')
+})
 // const template = Handlebars.compile("Name: {{name}}");
 // console.log(template({ name: "Nils" }));
 
@@ -34,11 +34,6 @@ app.use(express.static('public'));
 // Sets a basic route
 app.get('/', (req, res) => res.send('Hello World !'));
 
-app.listen(process.env.PORT|| 3000, () => {
-  console.log(`🚀  Server ready at ${process.env.PORT|| 3000}`);
+app.listen(process.env.PORT, () => {
+    console.log(`🚀  Server ready at ${process.env.PORT}`);
 });
-
-
-module.exports = app;
-
-module.exports.handler = serverless(app);
