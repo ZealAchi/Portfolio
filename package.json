@@ -9,7 +9,8 @@
     "dev": "nodemon --exec yarn start",
     "lint": "eslint index.js src",
     "test": "jest",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "build": "netlify-lambda build express",
   },
   "dependencies": {
     "cors": "^2.8.5",
