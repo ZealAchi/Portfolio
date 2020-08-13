@@ -1,6 +1,8 @@
 import express from 'express';
 import path from 'path';
 import dotEnv from 'dotenv';
+const serverless = require("serverless-http");
+
 // import bodyParser from 'body-parser';
 import handlebars from 'express-handlebars';
 import cors from 'cors';
@@ -35,3 +37,8 @@ app.get('/', (req, res) => res.send('Hello World !'));
 app.listen(process.env.PORT, () => {
   console.log(`🚀  Server ready at ${process.env.PORT}`);
 });
+
+
+module.exports = app;
+
+module.exports.handler = serverless(app);
