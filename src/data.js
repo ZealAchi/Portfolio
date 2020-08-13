@@ -1,7 +1,7 @@
 
 skillsFront = [
     {
-        skill: 'React', img: "asdasd", projects: [
+        skill: 'React', img: "assets/img/React.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -10,7 +10,7 @@ skillsFront = [
         ]
     },
     {
-        skill: 'Angular', img: "asdasd", projects: [
+        skill: 'Angular', img: "assets/img/Angular.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -19,7 +19,7 @@ skillsFront = [
         ]
     },
     {
-        skill: 'Mint', img: "asdasd", projects: [
+        skill: 'Mint', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -28,7 +28,7 @@ skillsFront = [
         ]
     },
     {
-        skill: 'HTML', img: "asdasd", projects: [
+        skill: 'HTML', img: "assets/img/html.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -37,7 +37,7 @@ skillsFront = [
         ]
     },
     {
-        skill: 'Blade', img: "asdasd", projects: [
+        skill: 'Blade', img: "assets/img/blade.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -46,7 +46,7 @@ skillsFront = [
         ]
     },
     {
-        skill: 'Handlebars', img: "asdasd", projects: [
+        skill: 'Handlebars', img: "assets/img/handlebars.jpg", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -54,7 +54,7 @@ skillsFront = [
             }
         ]
     }, {
-        skill: 'JS', img: "asdasd", projects: [
+        skill: 'JS', img: "assets/img/js.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -63,7 +63,7 @@ skillsFront = [
         ]
     },
     {
-        skill: 'Css', img: "asdasd", projects: [
+        skill: 'Css 3', img: "assets/img/css.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -72,7 +72,7 @@ skillsFront = [
         ]
     },
     {
-        skill: 'Sass', img: "asdasd", projects: [
+        skill: 'Sass', img: "assets/img/sass.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -80,7 +80,7 @@ skillsFront = [
             }
         ]
     }, {
-        skill: 'Styled Components', img: "asdasd", projects: [
+        skill: 'Styled Components', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -88,7 +88,7 @@ skillsFront = [
             }
         ]
     }, {
-        skill: 'Bootstrap', img: "asdasd", projects: [
+        skill: 'Bootstrap', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -96,7 +96,7 @@ skillsFront = [
             }
         ]
     }, {
-        skill: 'Bulma', img: "asdasd", projects: [
+        skill: 'Bulma', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -104,7 +104,7 @@ skillsFront = [
             }
         ]
     }, {
-        skill: 'Rbx', img: "asdasd", projects: [
+        skill: 'Rbx', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -112,7 +112,7 @@ skillsFront = [
             }
         ]
     }, {
-        skill: 'Material', img: "asdasd", projects: [
+        skill: 'Material', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -120,7 +120,7 @@ skillsFront = [
             }
         ]
     }, {
-        skill: 'Ant Design', img: "asdasd", projects: [
+        skill: 'Ant Design', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -128,7 +128,7 @@ skillsFront = [
             }
         ]
     }, {
-        skill: 'Parcel', img: "asdasd", projects: [
+        skill: 'Parcel', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -136,7 +136,7 @@ skillsFront = [
             }
         ]
     }, {
-        skill: 'Bootstrap', img: "asdasd", projects: [
+        skill: 'Bootstrap', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -144,7 +144,7 @@ skillsFront = [
             }
         ]
     }, {
-        skill: 'Google Charts', img: "asdasd", projects: [
+        skill: 'Google Charts', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -155,7 +155,7 @@ skillsFront = [
 ];
 skillsBack = [
     {
-        skill: 'Node.js', img: "asdasd", projects: [
+        skill: 'Node.js', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -164,7 +164,7 @@ skillsBack = [
         ]
     },
     {
-        skill: 'Java', img: "asdasd", projects: [
+        skill: 'Java', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -172,7 +172,7 @@ skillsBack = [
             }
         ]
     }, {
-        skill: 'PHP', img: "asdasd", projects: [
+        skill: 'PHP', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -180,7 +180,7 @@ skillsBack = [
             }
         ]
     }, {
-        skill: 'Golang', img: "asdasd", projects: [
+        skill: 'Golang', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -189,7 +189,7 @@ skillsBack = [
         ]
     },
     {
-        skill: 'Crystal', img: "asdasd", projects: [
+        skill: 'Crystal', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -197,7 +197,7 @@ skillsBack = [
             }
         ]
     }, {
-        skill: 'Express', img: "asdasd", projects: [
+        skill: 'Express', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -205,7 +205,7 @@ skillsBack = [
             }
         ]
     }, {
-        skill: 'Sprint', img: "asdasd", projects: [
+        skill: 'Sprint', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -213,7 +213,7 @@ skillsBack = [
             }
         ]
     }, {
-        skill: 'Sprint Boot', img: "asdasd", projects: [
+        skill: 'Sprint Boot', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -221,7 +221,7 @@ skillsBack = [
             }
         ]
     }, {
-        skill: 'Laravel', img: "asdasd", projects: [
+        skill: 'Laravel', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -229,7 +229,7 @@ skillsBack = [
             }
         ]
     }, {
-        skill: 'Buffalo', img: "asdasd", projects: [
+        skill: 'Buffalo', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -237,7 +237,7 @@ skillsBack = [
             }
         ]
     }, {
-        skill: 'Kemal', img: "asdasd", projects: [
+        skill: 'Kemal', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -245,7 +245,7 @@ skillsBack = [
             }
         ]
     }, {
-        skill: 'Loopback', img: "asdasd", projects: [
+        skill: 'Loopback', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -256,7 +256,7 @@ skillsBack = [
 ];
 skillsMovil = [
     {
-        skill: 'React Native', img: "asdasd", projects: [
+        skill: 'React Native', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -265,7 +265,7 @@ skillsMovil = [
         ]
     },
     {
-        skill: 'Java', img: "asdasd", projects: [
+        skill: 'Java', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -274,7 +274,7 @@ skillsMovil = [
         ]
     },
     {
-        skill: 'Kotlin', img: "asdasd", projects: [
+        skill: 'Kotlin', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -285,7 +285,7 @@ skillsMovil = [
 ];
 skillsOthers = [
     {
-        skill: 'Rest', img: "asdasd", projects: [
+        skill: 'Rest', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -293,7 +293,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'Websocket', img: "asdasd", projects: [
+        skill: 'Websocket', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -301,7 +301,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'Socket.io', img: "asdasd", projects: [
+        skill: 'Socket.io', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -309,7 +309,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'gRpc', img: "asdasd", projects: [
+        skill: 'gRpc', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -317,7 +317,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'Graphql', img: "asdasd", projects: [
+        skill: 'Graphql', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -325,7 +325,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'JWT', img: "asdasd", projects: [
+        skill: 'JWT', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -333,7 +333,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'MongoDB', img: "asdasd", projects: [
+        skill: 'MongoDB', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -341,7 +341,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'Oracle', img: "asdasd", projects: [
+        skill: 'Oracle', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -349,7 +349,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'MariaDB', img: "asdasd", projects: [
+        skill: 'MariaDB', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -357,7 +357,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'Mysql', img: "asdasd", projects: [
+        skill: 'Mysql', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -365,7 +365,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'Postgres', img: "asdasd", projects: [
+        skill: 'Postgres', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -373,7 +373,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'Redis', img: "asdasd", projects: [
+        skill: 'Redis', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -381,7 +381,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'Nginx', img: "asdasd", projects: [
+        skill: 'Nginx', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -389,7 +389,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'Apollo', img: "asdasd", projects: [
+        skill: 'Apollo', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -397,7 +397,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'Figma', img: "asdasd", projects: [
+        skill: 'Figma', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -405,7 +405,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'Heroku', img: "asdasd", projects: [
+        skill: 'Heroku', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -413,7 +413,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'Redux', img: "asdasd", projects: [
+        skill: 'Redux', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -421,7 +421,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'Git', img: "asdasd", projects: [
+        skill: 'Git', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -429,7 +429,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'AWS S3', img: "asdasd", projects: [
+        skill: 'AWS S3', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }
@@ -437,7 +437,7 @@ skillsOthers = [
             }
         ]
     },{
-        skill: 'Grunt js', img: "asdasd", projects: [
+        skill: 'Grunt js', img: "assets/img/Mint.png", projects: [
             {
                 name: 'sad', description: '', tecnologias: [
                     { name: 'react' }

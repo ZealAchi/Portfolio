@@ -129,15 +129,22 @@ h2.article-title {
 .timeline {
   margin: 28px;
 }
-
+.ancla{
+    display: block;
+    width: 100px;
+    height: 22px;
+    position:absolute;
+    top: -79px;
+}
 .names {
   display: flex;
-  height: 97vh;
+  height: 46vh;
   flex-wrap: wrap;
   flex-direction: column;
   flex: 1 1 0%;
   width: 100%;
   overflow: overlay;
+  overflow-y: hidden;
 }
 
 .item-skill {
