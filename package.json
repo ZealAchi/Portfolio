@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "main": "src/index.js",
   "license": "MIT",
-  "type": "module",
   "scripts": {
     "start": "babel-node src/index.js",
     "dev": "nodemon --exec yarn start",
