@@ -34,8 +34,8 @@ app.use(express.static('public'));
 // Sets a basic route
 app.get('/', (req, res) => res.send('Hello World !'));
 
-app.listen(process.env.PORT, () => {
-  console.log(`🚀  Server ready at ${process.env.PORT}`);
+app.listen(process.env.PORT|| 3000, () => {
+  console.log(`🚀  Server ready at ${process.env.PORT|| 3000}`);
 });
 
 
