@@ -25,7 +25,7 @@ module.exports=function(grunt){
             },
             jscompressor: {
                 files: ['js/*.js'],
-                task: ['unglify']
+                task: ['uglify']
             },
         },
         cssmin:{
