@@ -18,23 +18,25 @@ function filterNames() {
   var FrontEnd3 = ul[3].querySelectorAll('div.media-content');
 
 
-  Ocultar(FrontEnd0, filterValue, ocultar0)
+  for (var i = 0; i < FrontEnd0.length; i++) {
+    Ocultar(FrontEnd0,filterValue,ocultar0,i)
+  }
+  for (var i = 0; i < FrontEnd1.length; i++) {
+    Ocultar(FrontEnd1,filterValue,ocultar1,i)
+  }
+  for (var i = 0; i < FrontEnd2.length; i++) {
+    Ocultar(FrontEnd2,filterValue,ocultar2,i)
+  }
+  for (var i = 0; i < FrontEnd3.length; i++) {
+     Ocultar(FrontEnd3,filterValue,ocultar3,i)
+  }
 
-  Ocultar(FrontEnd1, filterValue, ocultar1)
-
-  Ocultar(FrontEnd2, filterValue, ocultar2)
-
-  Ocultar(FrontEnd3, filterValue, ocultar3)
-
-
-  function Ocultar(Array, filterValue, ocultar) {
-    for (var i = 0; i < FrontEnd0.length; i++) {
-      var p = Array[i].getElementsByTagName('p')[0];
-      if (p.innerHTML.toUpperCase().indexOf(filterValue) > -1) {
-        ocultar[i].style.cssText = 'flex !important;';
-      } else {
-        ocultar[i].style.cssText = 'display:none !important';
-      }
+   function Ocultar(Array,filterValue,ocultar,i){
+    var p = Array[i].getElementsByTagName('p')[0];
+    if (p.innerHTML.toUpperCase().indexOf(filterValue) > -1) {
+      ocultar[i].style.cssText = 'flex !important;';
+    } else {
+      ocultar[i].style.cssText = 'display:none !important';
     }
   }
 
