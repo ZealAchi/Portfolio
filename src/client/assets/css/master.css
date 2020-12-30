@@ -171,3 +171,50 @@ h2.article-title {
 }
 
 /* EndScroll */
+
+.navbar{
+  border-style: solid;
+  border-bottom-color: #00d1b2;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+}
+
+.icon1{
+  background:#e5eae8;
+    width: 25vw;
+    height: 11vh;
+    position: absolute;
+    right: 0;
+    border-bottom-right-radius: 173rem;
+    border-bottom-left-radius: 14rem;
+}
+.icon2{
+  background:#e5eae8;
+  width: 25vw;
+  height: 11vh;
+  position: absolute;
+  border-bottom-left-radius: 173rem;
+  border-bottom-right-radius: 14rem;
+}
+.center{
+  align-content: center;
+}
+.portafolio-card{
+  width: 335px;
+}
+.portafolio {
+  display: flex;
+  height: 62vh;
+  flex-wrap: wrap;
+  flex-direction: column;
+  flex: 1 1 0%;
+  width: 100%;
+  overflow: overlay;
+  overflow-y: hidden;
+}
+
+.portafolio-img{
+  width: 334px;
+  height: 244px;
+}

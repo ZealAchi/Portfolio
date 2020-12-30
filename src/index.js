@@ -29,20 +29,15 @@ app.get('/', (req, res) => {
         skillsFront,
         skillsBack,
         skillsMovil,
-        skillsOthers
+        skillsOthers,
+        Portafolio
     });
 })
 
-app.get('/news', (req, res) => {
-    res.render('news')
-})
-// const template = Handlebars.compile("Name: {{name}}");
-// console.log(template({ name: "Nils" }));
 
 // Serves static files (we need it to import a css file)
 app.use(express.static('public'));
-// Sets a basic route
-app.get('/', (req, res) => res.send('Hello World !'));
+
 
 app.listen(process.env.PORT || 3000, () => {
     console.log(`🚀  Server ready at ${process.env.PORT | 3000}`);
