@@ -24,7 +24,6 @@ app.set('views', path.join(__dirname, 'resources/views'));
 app.use(express.static(path.join(__dirname, "public")));
 
 app.get('/', (req, res) => {
-    // console.log(skills)
     return res.render('home', {
         skillsFront,
         skillsBack,
